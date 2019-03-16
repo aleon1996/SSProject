@@ -33,7 +33,7 @@ class TweetListener(StreamListener):
         f = codecs.open('tweets.txt', 'w', encoding="utf-8")
         json_load = json.loads(data)
         text = {'text': json_load['text']}
-        print json.dumps(text)
+        print(json.dumps(text))
         #f.write(json.dumps(text) + '\n')
         self.max += 1
         if self.max > 49:
@@ -42,7 +42,7 @@ class TweetListener(StreamListener):
         return True
 
     def on_error(self, status):
-        print status
+        print(status)
 
 # Read in Tracks and Artists from text file "newMusicFriday.txt"
 # f = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='r')

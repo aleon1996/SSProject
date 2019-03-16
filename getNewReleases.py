@@ -41,6 +41,7 @@ if token:
 
     f = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='w')
     for k,v in track_artist.items():
+        print('Song: '+str(k)+ ' Artist: '+ ', '.join(v))
         f.write(k)
         f.write('"')
         f.write(', '.join(v))
