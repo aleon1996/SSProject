@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Tue Mar  5 12:44:40 2019
@@ -7,19 +7,27 @@ Created on Tue Mar  5 12:44:40 2019
 """
 
 #two basic functions to clean and get the sentiment values of tweets
-#install textblob by pip install textblob & python -m textblob.dowload_corpora
+#install textblob by pip install textblob & python -m textblob.dowload_corpora OR python -m pip install -U textblob if link between python breaks
 from textblob import TextBlob
 import re
 
 def clean_tweet(tweet):
     return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
 
-def get_tweet_sentifment(tweet):
+def get_tweet_sentiment(tweet):
     analysis = TextBlob(clean_tweet(tweet))
+    # print(analysis.sentiment.polarity)
     if analysis.sentiment.polarity > 0:
-        return 'positive'
+        print('positive')
+        return analysis.sentiment.polarity
     elif analysis.sentiment.polarity == 0:
-        return 'neutral'
+        print('neutral')
+        return analysis.sentiment.polarity
     else:
-        return 'negative'
+        print('negative')
+        return analysis.sentiment.polarity
 
+
+# tweet = ""
+# s = get_tweet_sentiment(tweet)
+# print(s)

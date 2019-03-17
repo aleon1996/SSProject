@@ -34,9 +34,11 @@ if token:
     track_artist = {}
     for playlist_element in range(0, len(tracks)):
         song = tracks[playlist_element]['track']['name']
+        id = tracks[playlist_element]['track']['id']
         artists = []
         for i in range(0, len(tracks[playlist_element]['track']['artists'])):
             artists.append(tracks[playlist_element]['track']['artists'][i]['name'])
+        artists.append(id)
         track_artist[song] = artists
 
     f = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='w')
@@ -44,7 +46,9 @@ if token:
         print('Song: '+str(k)+ ' Artist: '+ ', '.join(v))
         f.write(k)
         f.write('"')
-        f.write(', '.join(v))
+        f.write(' '.join(v[:-1]))
+        f.write('"')
+        f.write(v[-1])
         f.write('\n')
     f.close()
     # sp = spotipy.Spotify(auth=token)
