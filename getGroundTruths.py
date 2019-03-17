@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Sun Mar 17 14:48:05 2019
@@ -24,7 +24,7 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-newMusicFridayFile = codecs.open('betta.txt', encoding='utf-8', mode='r')
+newMusicFridayFile = codecs.open('test.txt', encoding='utf-8', mode='r')
 f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
