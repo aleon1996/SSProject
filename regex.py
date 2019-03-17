@@ -12,7 +12,6 @@ def filter_tweet(tweet, track, author):
     author = author.split(',')
     track = track.lower()
     track = track.replace(',', '')
-    print(track)
     # p1 = '.*' # Pattern1: '.*Ariana Grande.*God is a woman.*' -> author + track
     # p3 = '.*' + track + '.*' # Pattern3: '.*God is a woman.*Ariana Grande.*' -> track + author
     # for artist in author:
