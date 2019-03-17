@@ -24,7 +24,6 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-track_auths = []
 newMusicFridayFile = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='r')
 f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
@@ -34,15 +33,13 @@ for line in newMusicFridayFile:
     authors = ','.join(line[1])
     track_id = line[2]
     
-
     scope = 'playlist-read-private' # probably change this
     token = util.prompt_for_user_token(username,scope,client_id=SPOTIPY_CLIENT_ID,client_secret=SPOTIPY_CLIENT_SECRET,redirect_uri=SPOTIPY_REDIRECT_URI)
 
     if token:
         sp = spotipy.Spotify(auth=token)
-
-        track_popularity = {}
         song = sp.track(track_id)
+        
         f.write(song['name'])
         f.write(',')
         f.write(str(song['popularity']))
