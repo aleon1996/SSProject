@@ -24,19 +24,24 @@ class StreamListenerKeywords(tweepy.StreamListener):
         super(StreamListenerKeywords, self).__init__()
         self.num_tweets = 0
         self.start_time = time.time()
+        print("start time: {}".format(self.start_time))
         self.end_time = None
+        self.final_time = None
         global song_id
 
     def on_status(self, status):
 
         print(status.text)
         data[song_id]['tweets'].append(status.text)
+        self.end_time = time.time()
+        print("end time: {}".format(self.end_time))
+        self.final_time = self.end_time - self.start_time
+        print("time difference: {}".format(final_time))
         self.num_tweets += 1
-        if self.num_tweets > 3:
-            print("limit of 10 tweets reached")
-            self.end_time = time.time()
-            #TODO get final time
-
+        #we can change the ending of the stream based on a timer or number of tweets
+        if self.final_time > 180:
+            print("Time Limit Reached")
+            data[song_id]['time'] = self.end_time
             return False
 
     def on_error(self, status_code):
@@ -46,7 +51,6 @@ class StreamListenerKeywords(tweepy.StreamListener):
 def beginStream(line):
     stream_listener_keywords = StreamListenerKeywords()
     stream1 = tweepy.Stream(auth=api.auth, listener=stream_listener_keywords)
-    # print(type(line))
     stream1.filter(track=line , languages=['en'])
 
 def main():
@@ -65,6 +69,7 @@ def main():
             data[song_id]['name'] = line[0]
             data[song_id]['artist'] = line[1]
             data[song_id]['tweets'] = []
+            data[song_id]['time'] = None
             #beginStream will collect X number of tweets per song, keeping in mind how long it takes to collect each for each song.
             #The less time it takes, we know the more this song is being talked about. Alternatively we also use a timer, up to us to decide
             beginStream(line)

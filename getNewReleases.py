@@ -9,7 +9,7 @@ import os
 #from json.decoder import JSONDecodeError
 
 SPOTIPY_CLIENT_ID='5b8dbcb9ff8f4fbcb3e62f0ae1f0b138'
-SPOTIPY_CLIENT_SECRET=''
+SPOTIPY_CLIENT_SECRET='04f0d2a4fdae4245ac26cdd496d65c05'
 SPOTIPY_REDIRECT_URI='http://0.0.0.0:8000/' # run: python3 -m http.server 8000
 
 if len(sys.argv) > 1:
