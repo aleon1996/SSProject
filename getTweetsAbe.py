@@ -36,7 +36,7 @@ class StreamListenerKeywords(tweepy.StreamListener):
         self.end_time = time.time()
         print("end time: {}".format(self.end_time))
         self.final_time = self.end_time - self.start_time
-        print("time difference: {}".format(final_time))
+        print("time difference: {}".format(self.final_time))
         self.num_tweets += 1
         #we can change the ending of the stream based on a timer or number of tweets
         if self.final_time > 180:
