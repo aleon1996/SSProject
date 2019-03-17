@@ -1,8 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 17 14:48:05 2019
 
-# Elisabetta Caldesi
-# Social Sensing Final Project
-# STEP 5: Get Popularity Value for each song from Spotify
+@author: lcampbe3
+"""
 
 import spotipy
 import sys
@@ -24,37 +26,28 @@ else:
 
 track_auths = []
 newMusicFridayFile = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='r')
+f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
     line = line.split('"') # line[0] = track name, line[1] = artist
     track_name = line[0]
-    authors = ', '.join(line[1])
+    authors = ','.join(line[1])
+    track_id = line[2]
+    
 
     scope = 'playlist-read-private' # probably change this
     token = util.prompt_for_user_token(username,scope,client_id=SPOTIPY_CLIENT_ID,client_secret=SPOTIPY_CLIENT_SECRET,redirect_uri=SPOTIPY_REDIRECT_URI)
 
     if token:
         sp = spotipy.Spotify(auth=token)
-        # Change this to fit to track rather than playlist
 
-        username = "spotify"
-        playlist = "37i9dQZF1DX4JAvHpjipBk"
-        sp_playlist = sp.user_playlist_tracks(username, playlist_id=playlist)
-        tracks = sp_playlist['items']
         track_popularity = {}
-        for playlist_element in range(0, len(tracks)):
-            song = tracks[playlist_element]['track']['name']
-            artists = []
-            for i in range(0, len(tracks[playlist_element]['track']['artists'])):
-                artists.append(tracks[playlist_element]['track']['artists'][i]['name'])
-            track_artist[song] = artists
+        song = sp.track(track_id)
+        f.write(song['name'])
+        f.write(',')
+        f.write(str(song['popularity']))
+        f.write('\n')
 
-        f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
-        for k,v in track_popularity.items():
-            f.write(k)
-            f.write(',')
-            f.write(v)
-            f.write('\n')
-        f.close()
-    else:
-        print("Can't get token for", username)
+f.close()
+#    else:
+#        print("Can't get token for", username)
