@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Sun Mar 17 14:48:05 2019
@@ -24,7 +24,7 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-newMusicFridayFile = codecs.open('newMusicFriday.txt', encoding='utf-8', mode='r')
+newMusicFridayFile = codecs.open('test.txt', encoding='utf-8', mode='r')
 f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
@@ -32,14 +32,14 @@ for line in newMusicFridayFile:
     track_name = line[0]
     authors = ','.join(line[1])
     track_id = line[2]
-    
+
     scope = 'playlist-read-private' # probably change this
     token = util.prompt_for_user_token(username,scope,client_id=SPOTIPY_CLIENT_ID,client_secret=SPOTIPY_CLIENT_SECRET,redirect_uri=SPOTIPY_REDIRECT_URI)
 
     if token:
         sp = spotipy.Spotify(auth=token)
         song = sp.track(track_id)
-        
+
         f.write(song['name'])
         f.write(',')
         f.write(str(song['popularity']))

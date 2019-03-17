@@ -68,7 +68,7 @@ def beginStream(line):
     stream1 = tweepy.Stream(auth=api.auth, listener=stream_listener_keywords)
     auths = line[1].split(',')
     print(auths)
-    str1 = line[0] + line[1].replace(',' , ' ')
+    str1 = line[0] +" " + line[1].replace(',' , ' ')
     kw = [] # kw = ['song title', 'artist1', 'artist2', 'song title + all of the artists without commas']
     kw.append(line[0]) # kw = ['song title']
     kw += auths # kw = ['song title', 'artist1', 'artist2']
