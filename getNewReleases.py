@@ -46,7 +46,7 @@ if token:
         print('Song: '+str(k)+ ' Artist: '+ ', '.join(v))
         f.write(k)
         f.write('"')
-        f.write(' '.join(v[:-1]))
+        f.write(','.join(v[:-1]))
         f.write('"')
         f.write(v[-1])
         f.write('\n')
