@@ -5,6 +5,7 @@ import time
 import csv
 import json
 import tweepy
+from sentiments import clean_tweet, get_tweet_sentiment
 
 CONSUMER_KEY = 'vHZIZtFTt5nNbSrPqlDAIJgNl'
 CONSUMER_SECRET = 'ARrxyCHbCrUUh5NvVMJ8Z71RoxiGa3MaGZQAwQk7bDwE6Uua6I'
@@ -24,24 +25,24 @@ class StreamListenerKeywords(tweepy.StreamListener):
         super(StreamListenerKeywords, self).__init__()
         self.num_tweets = 0
         self.start_time = time.time()
-        print("start time: {}".format(self.start_time))
+        # print("start time: {}".format(self.start_time))
         self.end_time = None
         self.final_time = None
         global song_id
 
     def on_status(self, status):
-
-        print(status.text)
-        data[song_id]['tweets'].append(status.text)
+        tweet = clean_tweet(status.text)
+        print(tweet)
+        data[song_id]['tweets'].append(tweet)
         self.end_time = time.time()
-        print("end time: {}".format(self.end_time))
+        # print("end time: {}".format(self.end_time))
         self.final_time = self.end_time - self.start_time
-        print("time difference: {}".format(self.final_time))
+        # print("time difference: {}".format(self.final_time))
         self.num_tweets += 1
         #we can change the ending of the stream based on a timer or number of tweets
-        if self.final_time > 180:
+        if self.final_time > 60:
             print("Time Limit Reached")
-            data[song_id]['time'] = self.end_time
+            data[song_id]['time'] = self.final_time
             return False
 
     def on_error(self, status_code):
@@ -65,6 +66,7 @@ def main():
         for line in open(file_name):
             line = line.rstrip()
             line = line.split('"') #line is a list of ['song', 'authors'] <-- could improve how to split authors
+            #TODO we need better keywords, so if we could pass in regexTweets function to do that here that takes a list and returns a list that'd be ideal
             data[song_id]={}
             data[song_id]['name'] = line[0]
             data[song_id]['artist'] = line[1]
