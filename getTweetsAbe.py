@@ -31,9 +31,10 @@ class StreamListenerKeywords(tweepy.StreamListener):
         global song_id
 
     def on_status(self, status):
-        tweet = clean_tweet(status.text)
-        print(tweet)
-        data[song_id]['tweets'].append(tweet)
+
+        # tweet = clean_tweet(status.text)
+        print(status.text)
+        data[song_id]['tweets'].append(status.text)
         self.end_time = time.time()
         # print("end time: {}".format(self.end_time))
         self.final_time = self.end_time - self.start_time
@@ -43,6 +44,7 @@ class StreamListenerKeywords(tweepy.StreamListener):
         if self.final_time > 60:
             print("Time Limit Reached")
             data[song_id]['time'] = self.final_time
+            data[song_id]["number"] = len(data[song_id]['tweets'])
             return False
 
     def on_error(self, status_code):
@@ -52,7 +54,14 @@ class StreamListenerKeywords(tweepy.StreamListener):
 def beginStream(line):
     stream_listener_keywords = StreamListenerKeywords()
     stream1 = tweepy.Stream(auth=api.auth, listener=stream_listener_keywords)
-    stream1.filter(track=line , languages=['en'])
+    keywords = []
+    kw = []
+    keywords.append('song')
+    keywords += line[:-1]
+    keywords = ' '.join(keywords)
+    kw.append(keywords)
+    print(kw)
+    stream1.filter(track=kw, languages=['en'])
 
 def main():
     #Read in File with New Music
@@ -65,11 +74,12 @@ def main():
         global song_id
         for line in open(file_name):
             line = line.rstrip()
-            line = line.split('"') #line is a list of ['song', 'authors'] <-- could improve how to split authors
+            line = line.split('"') #line is a list of ['song', 'authors''id'] <-- could improve how to split authors
             #TODO we need better keywords, so if we could pass in regexTweets function to do that here that takes a list and returns a list that'd be ideal
             data[song_id]={}
             data[song_id]['name'] = line[0]
             data[song_id]['artist'] = line[1]
+            data[song_id]['id'] = line[2]
             data[song_id]['tweets'] = []
             data[song_id]['time'] = None
             #beginStream will collect X number of tweets per song, keeping in mind how long it takes to collect each for each song.
