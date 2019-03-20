@@ -18,16 +18,17 @@ def get_tweet_sentiment(tweet):
     analysis = TextBlob(clean_tweet(tweet))
     # print(analysis.sentiment.polarity)
     if analysis.sentiment.polarity > 0:
-        print('positive')
+        #print('positive')
         return analysis.sentiment.polarity
     elif analysis.sentiment.polarity == 0:
-        print('neutral')
+        #print('neutral')
         return analysis.sentiment.polarity
     else:
-        print('negative')
+        #print('negative')
         return analysis.sentiment.polarity
 
 
-# tweet = ""
+# # tweet = "i'll turn into ariana grande in a few minutes with how long i've been playing 7 rings on loop for.." # gets a -0.125 sentiment
+# tweet = "literally every song on thank u, next is lyrically better than 7 rings" # gets a 0.25 sentiment
 # s = get_tweet_sentiment(tweet)
 # print(s)

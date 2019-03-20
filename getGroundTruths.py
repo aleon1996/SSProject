@@ -24,11 +24,11 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-newMusicFridayFile = codecs.open('test.txt', encoding='utf-8', mode='r')
-f = codecs.open('groundTruth.txt', encoding='utf-8', mode='w')
+newMusicFridayFile = codecs.open('trainingSet.txt', encoding='utf-8', mode='r')
+f = codecs.open('trainingSetGroundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
-    line = line.split('"') # line[0] = track name, line[1] = artist, line[2] = track id
+    line = line.split('^') # line[0] = track name, line[1] = artist, line[2] = track id
     track_name = line[0]
     authors = ','.join(line[1])
     track_id = line[2]
@@ -41,10 +41,10 @@ for line in newMusicFridayFile:
         song = sp.track(track_id)
 
         f.write(song['name'])
-        f.write(',')
+        f.write('^')
         f.write(str(song['popularity']))
+        f.write('^')
+        f.write(str(track_id))
         f.write('\n')
 
 f.close()
-#    else:
-#        print("Can't get token for", username)

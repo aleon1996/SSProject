@@ -41,12 +41,12 @@ if token:
         artists = []
         for i in range(0, len(tracks[playlist_element]['track']['artists'])):
             artists.append(tracks[playlist_element]['track']['artists'][i]['name'])
-        #str1 = id + '^' + release
-        #artists.append(str1)
-        artists.append(id)
+        str1 = id + '^' + release
+        artists.append(str1)
+        #artists.append(id)
         track_artist[song] = artists
 
-    f = codecs.open('trainingSet.txt', encoding='utf-8', mode='w')
+    f = codecs.open('trainingSetDates.txt', encoding='utf-8', mode='w')
     for k,v in track_artist.items():
         f.write(k)
         f.write('^')

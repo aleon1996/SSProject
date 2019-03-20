@@ -1,0 +1,137 @@
+{
+  "1": {
+    "number_vs_time": 16.364658923811806,
+    "name": "SICKO MODE",
+    "sentiment": 0.0559917575312214,
+    "number": 862,
+    "favorites": 15957,
+    "rts": 2393,
+    "id": "2xLMifQCjDGFmkHkpNLD9h"
+  },
+  "2": {
+    "number_vs_time": 13.443988450642253,
+    "name": "Numb Numb Juice",
+    "sentiment": -0.46042403035369317,
+    "number": 856,
+    "favorites": 6534,
+    "rts": 1411,
+    "id": "4dTiQezDWmEOWcdCbWVWMp"
+  },
+  "3": {
+    "number_vs_time": 13.979399503574129,
+    "name": "Thotiana",
+    "sentiment": -0.008218359456345489,
+    "number": 763,
+    "favorites": 560,
+    "rts": 960,
+    "id": "3oh6SCCeLuXhFpEyepla6G"
+  },
+  "4": {
+    "number_vs_time": 9.765653295632795,
+    "name": "7 rings",
+    "sentiment": 0.033243855264647355,
+    "number": 505,
+    "favorites": 12025,
+    "rts": 1788,
+    "id": "14msK75pk3pA33pzPVNtBF"
+  },
+  "5": {
+    "number_vs_time": 18.11529417209688,
+    "name": "Splashin",
+    "sentiment": 0.14647319718448376,
+    "number": 1042,
+    "favorites": 6526,
+    "rts": 1179,
+    "id": "79OEIr4J4FHV0O3KrhaXRb"
+  },
+  "6": {
+    "number_vs_time": 11.333800888785476,
+    "name": "Last Hurrah",
+    "sentiment": 0.055090706743371486,
+    "number": 645,
+    "favorites": 4197,
+    "rts": 556,
+    "id": "0i0wnv9UoFdZ5MfuFGQzMy"
+  },
+  "7": {
+    "number_vs_time": 23.406316900858613,
+    "name": "Let Me Down Slowly",
+    "sentiment": -0.2004382031694778,
+    "number": 1333,
+    "favorites": 4568,
+    "rts": 773,
+    "id": "2qxmye6gAegTMjLKEBoR3d"
+  },
+  "8": {
+    "number_vs_time": 20.247262334615424,
+    "name": "Old Town Road",
+    "sentiment": 0.08766425323473183,
+    "number": 1129,
+    "favorites": 10227,
+    "rts": 1360,
+    "id": "2pMl9Sx4glsuk5ikZtFBtX"
+  },
+  "9": {
+    "number_vs_time": 7.110163462471218,
+    "name": "Youngblood",
+    "sentiment": 0.08449847095223374,
+    "number": 392,
+    "favorites": 4131,
+    "rts": 2091,
+    "id": "2iUXsYOEPhVqEBwsqP70rE"
+  },
+  "10": {
+    "number_vs_time": 5.320265461797098,
+    "name": "thank u next",
+    "sentiment": 0.03295412605071696,
+    "number": 275,
+    "favorites": 1642,
+    "rts": 175,
+    "id": "3e9HZxeyfWwjeyPAMmWSSQ"
+  },
+  "11": {
+    "number_vs_time": 4.248431183071954,
+    "name": "Stay Flo",
+    "sentiment": 0.07889220995980653,
+    "number": 233,
+    "favorites": 434,
+    "rts": 78,
+    "id": "6GCIYIWUBSLontW6divqsw"
+  },
+  "12": {
+    "number_vs_time": 16.292589944715512,
+    "name": "Undrunk",
+    "sentiment": 0.05195106891856609,
+    "number": 873,
+    "favorites": 13589,
+    "rts": 1251,
+    "id": "5SHhPFh68OhUmuRPymKX9d"
+  },
+  "13": {
+    "number_vs_time": 24.95015684982969,
+    "name": "Murder On My Mind",
+    "sentiment": 0.0248130458806705,
+    "number": 1244,
+    "favorites": 19714,
+    "rts": 3373,
+    "id": "7eBqSVxrzQZtK2mmgRG6lC"
+  },
+  "14": {
+    "number_vs_time": 7.023492656879257,
+    "name": "ghostin",
+    "sentiment": 0.07957151748003703,
+    "number": 358,
+    "favorites": 2555,
+    "rts": 249,
+    "id": "2vdBo4ALPYbHRUPKgtE5iC"
+  },
+  "15": {
+    "number_vs_time": 20.806309882926552,
+    "name": "Mo Bamba",
+    "sentiment": 0.04745065804188926,
+    "number": 1129,
+    "favorites": 11458,
+    "rts": 1719,
+    "id": "1xzBco0xcoJEDXktl7Jxrr"
+  }
+}
