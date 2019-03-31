@@ -133,5 +133,50 @@
     "favorites": 11458,
     "rts": 1719,
     "id": "1xzBco0xcoJEDXktl7Jxrr"
+  },
+  "16": {
+    "number_vs_time": 20.93519838240645,
+    "name": "Artificial Paradise",
+    "sentiment": -0.313861225895317,
+    "number": 110,
+    "favorites": 287,
+    "rts": 89,
+    "id": "2LO4djxEtCZ72VANAk3AQZ"
+  },
+  "17": {
+    "number_vs_time": 11.124586241717937,
+    "name": "Euphoric Dreams",
+    "sentiment": 0.0689965256074882,
+    "number": 187,
+    "favorites": 431,
+    "rts": 71,
+    "id": "1YzEaZWQHeEGAQADZFA1of"
+  },
+  "18": {
+    "number_vs_time": 10.622298144280759,
+    "name": "Floating in a Vacuum",
+    "sentiment": 0.030326775938429116,
+    "number": 97,
+    "favorites": 310,
+    "rts": 74,
+    "id": "0wRGQZJjGaLQtxeQc2EOIf"
+  },
+  "19": {
+    "number_vs_time": 23.43642126916203,
+    "name": "Even in the Tremor",
+    "sentiment": 0.0787218519215273,
+    "number": 130,
+    "favorites": 1194,
+    "rts": 212,
+    "id": "49OExGKGl81xjwdwOatU05"
+  },
+  "20": {
+    "number_vs_time": 14.488257282068325,
+    "name": "Dowsabel",
+    "sentiment": -0.009566084956709965,
+    "number": 24,
+    "favorites": 79,
+    "rts": 40,
+    "id": "5ZfO7u5S2KmwrNBaoIJEG2"
   }
 }

@@ -18,7 +18,7 @@ from regex import filter_tweet
 import json
 
 # open file containing songs for Training Set
-trainingSet = codecs.open('trainingSet.txt', encoding='utf-8', mode='r')
+trainingSet = codecs.open('trainingSetUnpopular.txt', encoding='utf-8', mode='r')
 final_dict = {} # {1: {name: , id: , sentiment: , number: , time: , favorites: , rts: }, 2: {...}, ....}
 song_num = 1
 
@@ -33,7 +33,7 @@ for song in trainingSet:
     date = song[3]
 
     start_time = time.time() # time the search
-    tweetCriteria = got.manager.TweetCriteria().setQuerySearch(title).setSince(date).setUntil("2019-03-19").setMaxTweets(1500)
+    tweetCriteria = got.manager.TweetCriteria().setQuerySearch(title).setSince(date).setUntil("2019-03-31").setMaxTweets(1500)
     tweets = got.manager.TweetManager.getTweets(tweetCriteria)
     search_time = time.time() - start_time
 
@@ -78,5 +78,5 @@ for song in trainingSet:
 
 
 # now output final_dict on a json file
-with open('trainingSet.json', 'w') as outfile:
+with open('trainingSetUnpopular.json', 'w') as outfile:
     json.dump(final_dict, outfile)
