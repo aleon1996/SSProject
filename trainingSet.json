@@ -135,48 +135,129 @@
     "id": "1xzBco0xcoJEDXktl7Jxrr"
   },
   "16": {
-    "number_vs_time": 20.93519838240645,
-    "name": "Artificial Paradise",
-    "sentiment": -0.313861225895317,
-    "number": 110,
-    "favorites": 287,
-    "rts": 89,
-    "id": "2LO4djxEtCZ72VANAk3AQZ"
+    "number_vs_time": 7.705817574459092,
+    "name": "Drown In My Mind",
+    "sentiment": 0.028519724975317073,
+    "number": 456,
+    "favorites": 1093,
+    "rts": 187,
+    "id": "1i2t3VyIcsAonPhK6wjuJp"
   },
   "17": {
-    "number_vs_time": 11.124586241717937,
+    "number_vs_time": 4.710834163158807,
+    "name": "All These Things I Used to Have",
+    "sentiment": 0.04154098589582461,
+    "number": 124,
+    "favorites": 92,
+    "rts": 13,
+    "id": "2GRTYeLJqC0oZBeqiSRn16"
+  },
+  "18": {
+    "number_vs_time": 10.534471395733874,
+    "name": "Floating in a Vacuum",
+    "sentiment": 0.029769007882259776,
+    "number": 95,
+    "favorites": 304,
+    "rts": 72,
+    "id": "0wRGQZJjGaLQtxeQc2EOIf"
+  },
+  "19": {
+    "number_vs_time": 9.449784792669403,
     "name": "Euphoric Dreams",
-    "sentiment": 0.0689965256074882,
-    "number": 187,
+    "sentiment": 0.06936747466989406,
+    "number": 186,
     "favorites": 431,
     "rts": 71,
     "id": "1YzEaZWQHeEGAQADZFA1of"
   },
-  "18": {
-    "number_vs_time": 10.622298144280759,
-    "name": "Floating in a Vacuum",
-    "sentiment": 0.030326775938429116,
-    "number": 97,
-    "favorites": 310,
-    "rts": 74,
-    "id": "0wRGQZJjGaLQtxeQc2EOIf"
-  },
-  "19": {
-    "number_vs_time": 23.43642126916203,
-    "name": "Even in the Tremor",
-    "sentiment": 0.0787218519215273,
-    "number": 130,
-    "favorites": 1194,
-    "rts": 212,
-    "id": "49OExGKGl81xjwdwOatU05"
-  },
   "20": {
-    "number_vs_time": 14.488257282068325,
+    "number_vs_time": 10.561102464938939,
     "name": "Dowsabel",
     "sentiment": -0.009566084956709965,
     "number": 24,
     "favorites": 79,
     "rts": 40,
     "id": "5ZfO7u5S2KmwrNBaoIJEG2"
+  },
+  "21": {
+    "number_vs_time": 3.589862668177027,
+    "name": "Two More Wishes",
+    "sentiment": 0.28539321789321787,
+    "number": 6,
+    "favorites": 22,
+    "rts": 4,
+    "id": "0cYRuiM5eqOawt3AA3Peix"
+  },
+  "22": {
+    "number_vs_time": 10.219366659600855,
+    "name": "The Weight Of The Badge",
+    "sentiment": 0.1829164585414586,
+    "number": 26,
+    "favorites": 410,
+    "rts": 42,
+    "id": "0sfbpQvVZ3Omt5M8dtONwH"
+  },
+  "23": {
+    "number_vs_time": 1.1343364177949897,
+    "name": "Colorblind Mind",
+    "sentiment": 0.14961820586820587,
+    "number": 6,
+    "favorites": 17,
+    "rts": 1,
+    "id": "1BbB50A4RYs7VnENtY5XFK"
+  },
+  "24": {
+    "number_vs_time": 1.122723433037973,
+    "name": "Until We Fade",
+    "sentiment": 0.033368269914465565,
+    "number": 115,
+    "favorites": 662,
+    "rts": 117,
+    "id": "1koR6Pk3vbWhtBil1BJrVx"
+  },
+  "25": {
+    "number_vs_time": 20.371972443546962,
+    "name": "Honky Tonk Time Machine",
+    "sentiment": 0.15308078282828264,
+    "number": 250,
+    "favorites": 4341,
+    "rts": 740,
+    "id": "1Xes5PNTjJe3mR48KUmLxY"
+  },
+  "26": {
+    "number_vs_time": 13.5530147217288,
+    "name": "Artificial Paradise",
+    "sentiment": -0.30374206349206356,
+    "number": 105,
+    "favorites": 274,
+    "rts": 85,
+    "id": "2LO4djxEtCZ72VANAk3AQZ"
+  },
+  "27": {
+    "number_vs_time": 3.795058375631919,
+    "name": "Shrike",
+    "sentiment": 0.12823962252654425,
+    "number": 281,
+    "favorites": 2419,
+    "rts": 381,
+    "id": "5uIYONgpUQ7t0v7D6CTMBt"
+  },
+  "28": {
+    "number_vs_time": 17.641918993439365,
+    "name": "Even in the Tremor",
+    "sentiment": 0.0748981430258054,
+    "number": 125,
+    "favorites": 1041,
+    "rts": 174,
+    "id": "49OExGKGl81xjwdwOatU05"
+  },
+  "29": {
+    "number_vs_time": 0.29681227396997445,
+    "name": "NIKES",
+    "sentiment": 0.03586038961038961,
+    "number": 22,
+    "favorites": 59,
+    "rts": 11,
+    "id": "3dJWV1vPs1nxv9A6unFcCr"
   }
 }
