@@ -69,7 +69,7 @@ for song in trainingSet:
     song_dict['id'] = id
     song_dict['sentiment'] = song_sentiment
     song_dict['number'] = num_tweets
-    song_dict['number_vs_time'] = num_tweets/float(search_time)
+    song_dict['time'] = search_time
     song_dict['favorites'] = total_favorites
     song_dict['rts'] = total_rts
 
