@@ -28,10 +28,10 @@ token = util.prompt_for_user_token(username,scope,client_id=SPOTIPY_CLIENT_ID,cl
 
 if token:
     sp = spotipy.Spotify(auth=token)
-    #username = "elisabettacaldesi"
-    username = "lcampbe3-us"
-    playlist = "4ce68f4vDXuZzGrpK6bHrK"
-    #playlist = "1TuhkjrRiaVj2fr5fwQ2gr"
+    username = "elisabettacaldesi"
+    playlist = "1TuhkjrRiaVj2fr5fwQ2gr"
+    # username = "lcampbe3-us"
+    # playlist = "4ce68f4vDXuZzGrpK6bHrK"
     sp_playlist = sp.user_playlist_tracks(username, playlist_id=playlist)
     tracks = sp_playlist['items']
     track_artist = {}
@@ -48,7 +48,7 @@ if token:
         #artists.append(id)
         track_artist[song] = artists
 
-    f = codecs.open('trainingSetUnpopular.txt', encoding='utf-8', mode='w')
+    f = codecs.open('trainingSet.txt', encoding='utf-8', mode='w')
     for k,v in track_artist.items():
         f.write(k)
         f.write('^')

@@ -1,159 +1,51 @@
 {
   "1": {
-    "number_vs_time": 16.364658923811806,
+    "number_vs_time": 15.869245728934404,
     "name": "SICKO MODE",
-    "sentiment": 0.0559917575312214,
-    "number": 862,
-    "favorites": 15957,
-    "rts": 2393,
+    "sentiment": 0.04741137220502995,
+    "number": 2840,
+    "favorites": 56205,
+    "rts": 8283,
     "id": "2xLMifQCjDGFmkHkpNLD9h"
   },
   "2": {
-    "number_vs_time": 13.443988450642253,
+    "number_vs_time": 14.236292745701867,
     "name": "Numb Numb Juice",
-    "sentiment": -0.46042403035369317,
-    "number": 856,
-    "favorites": 6534,
-    "rts": 1411,
+    "sentiment": -0.46812799091173646,
+    "number": 2728,
+    "favorites": 13751,
+    "rts": 2841,
     "id": "4dTiQezDWmEOWcdCbWVWMp"
   },
   "3": {
-    "number_vs_time": 13.979399503574129,
+    "number_vs_time": 20.201854112325634,
     "name": "Thotiana",
-    "sentiment": -0.008218359456345489,
-    "number": 763,
-    "favorites": 560,
-    "rts": 960,
+    "sentiment": -0.007733082559004678,
+    "number": 3750,
+    "favorites": 264027,
+    "rts": 72691,
     "id": "3oh6SCCeLuXhFpEyepla6G"
   },
   "4": {
-    "number_vs_time": 9.765653295632795,
+    "number_vs_time": 12.173651275754095,
     "name": "7 rings",
-    "sentiment": 0.033243855264647355,
-    "number": 505,
-    "favorites": 12025,
-    "rts": 1788,
+    "sentiment": 0.06832269232182207,
+    "number": 2093,
+    "favorites": 84576,
+    "rts": 21781,
     "id": "14msK75pk3pA33pzPVNtBF"
   },
   "5": {
-    "number_vs_time": 18.11529417209688,
-    "name": "Splashin",
-    "sentiment": 0.14647319718448376,
-    "number": 1042,
-    "favorites": 6526,
-    "rts": 1179,
-    "id": "79OEIr4J4FHV0O3KrhaXRb"
-  },
-  "6": {
-    "number_vs_time": 11.333800888785476,
-    "name": "Last Hurrah",
-    "sentiment": 0.055090706743371486,
-    "number": 645,
-    "favorites": 4197,
-    "rts": 556,
-    "id": "0i0wnv9UoFdZ5MfuFGQzMy"
-  },
-  "7": {
-    "number_vs_time": 23.406316900858613,
-    "name": "Let Me Down Slowly",
-    "sentiment": -0.2004382031694778,
-    "number": 1333,
-    "favorites": 4568,
-    "rts": 773,
-    "id": "2qxmye6gAegTMjLKEBoR3d"
-  },
-  "8": {
-    "number_vs_time": 20.247262334615424,
-    "name": "Old Town Road",
-    "sentiment": 0.08766425323473183,
-    "number": 1129,
-    "favorites": 10227,
-    "rts": 1360,
-    "id": "2pMl9Sx4glsuk5ikZtFBtX"
-  },
-  "9": {
-    "number_vs_time": 7.110163462471218,
-    "name": "Youngblood",
-    "sentiment": 0.08449847095223374,
-    "number": 392,
-    "favorites": 4131,
-    "rts": 2091,
-    "id": "2iUXsYOEPhVqEBwsqP70rE"
-  },
-  "10": {
-    "number_vs_time": 5.320265461797098,
-    "name": "thank u next",
-    "sentiment": 0.03295412605071696,
-    "number": 275,
-    "favorites": 1642,
-    "rts": 175,
-    "id": "3e9HZxeyfWwjeyPAMmWSSQ"
-  },
-  "11": {
-    "number_vs_time": 4.248431183071954,
-    "name": "Stay Flo",
-    "sentiment": 0.07889220995980653,
-    "number": 233,
-    "favorites": 434,
-    "rts": 78,
-    "id": "6GCIYIWUBSLontW6divqsw"
-  },
-  "12": {
-    "number_vs_time": 16.292589944715512,
-    "name": "Undrunk",
-    "sentiment": 0.05195106891856609,
-    "number": 873,
-    "favorites": 13589,
-    "rts": 1251,
-    "id": "5SHhPFh68OhUmuRPymKX9d"
-  },
-  "13": {
-    "number_vs_time": 24.95015684982969,
-    "name": "Murder On My Mind",
-    "sentiment": 0.0248130458806705,
-    "number": 1244,
-    "favorites": 19714,
-    "rts": 3373,
-    "id": "7eBqSVxrzQZtK2mmgRG6lC"
-  },
-  "14": {
-    "number_vs_time": 7.023492656879257,
-    "name": "ghostin",
-    "sentiment": 0.07957151748003703,
-    "number": 358,
-    "favorites": 2555,
-    "rts": 249,
-    "id": "2vdBo4ALPYbHRUPKgtE5iC"
-  },
-  "15": {
-    "number_vs_time": 20.806309882926552,
-    "name": "Mo Bamba",
-    "sentiment": 0.04745065804188926,
-    "number": 1129,
-    "favorites": 11458,
-    "rts": 1719,
-    "id": "1xzBco0xcoJEDXktl7Jxrr"
-  },
-  "16": {
-    "number_vs_time": 16.716757061959246,
-    "name": "Dowsabel",
-    "sentiment": -0.009566084956709965,
-    "number": 24,
-    "favorites": 80,
-    "rts": 40,
-    "id": "5ZfO7u5S2KmwrNBaoIJEG2"
-  },
-  "17": {
-    "number_vs_time": 1.1109389446662596,
+    "number_vs_time": 1.0154532250489872,
     "name": "Lavender Bones",
-    "sentiment": 0.06731046048669,
-    "number": 61,
-    "favorites": 582,
-    "rts": 68,
+    "sentiment": 0.06090868713059723,
+    "number": 89,
+    "favorites": 388,
+    "rts": 38,
     "id": "5bJW3GFEgVklsym3fmCCaL"
   },
-  "18": {
-    "number_vs_time": 1.0221640476322191,
+  "6": {
+    "number_vs_time": 0.8611732830601179,
     "name": "Tea Gambler",
     "sentiment": 0.125,
     "number": 2,
@@ -161,62 +53,62 @@
     "rts": 6,
     "id": "65e76STTTmT7Nru1TDg5rR"
   },
-  "19": {
-    "number_vs_time": 0.16042578031684152,
-    "name": "Op Opa",
-    "sentiment": -0.06333333333333332,
-    "number": 10,
-    "favorites": 35,
-    "rts": 4,
-    "id": "2rzGN2eI7TsJe5xzx9sOb2"
+  "7": {
+    "number_vs_time": 9.659269088767237,
+    "name": "God And Country Music",
+    "sentiment": 0.13114367357788412,
+    "number": 38,
+    "favorites": 188,
+    "rts": 69,
+    "id": "4RldvvNaEdteK2I0y6NWTR"
   },
-  "20": {
-    "number_vs_time": 18.194220285885354,
-    "name": "Artificial Paradise",
-    "sentiment": -0.3085623597081931,
-    "number": 108,
-    "favorites": 286,
-    "rts": 89,
-    "id": "2LO4djxEtCZ72VANAk3AQZ"
-  },
-  "21": {
-    "number_vs_time": 27.22786615280785,
+  "8": {
+    "number_vs_time": 17.852771910464117,
     "name": "Honky Tonk Time Machine",
-    "sentiment": 0.15384998296456606,
-    "number": 252,
-    "favorites": 4362,
-    "rts": 745,
+    "sentiment": 0.14881052875695724,
+    "number": 245,
+    "favorites": 5034,
+    "rts": 857,
     "id": "1Xes5PNTjJe3mR48KUmLxY"
   },
-  "22": {
-    "number_vs_time": 21.377502335094043,
+  "9": {
+    "number_vs_time": 19.30822883962692,
     "name": "Even in the Tremor",
-    "sentiment": 0.07675576507039339,
-    "number": 127,
-    "favorites": 1171,
-    "rts": 201,
+    "sentiment": 0.07867994712237306,
+    "number": 131,
+    "favorites": 1230,
+    "rts": 212,
     "id": "49OExGKGl81xjwdwOatU05"
   },
-  "23": {
-    "number_vs_time": 26.342893329576924,
+  "10": {
+    "number_vs_time": 14.546644180038019,
+    "name": "Sweet but Psycho",
+    "sentiment": 0.31004137740241694,
+    "number": 2476,
+    "favorites": 12061,
+    "rts": 1623,
+    "id": "25sgk305KZfyuqVBQIahim"
+  },
+  "11": {
+    "number_vs_time": 22.504531414475743,
     "name": "Locationships",
-    "sentiment": 0.08729831079557633,
-    "number": 1476,
-    "favorites": 6371,
-    "rts": 723,
+    "sentiment": 0.12873683854460105,
+    "number": 1934,
+    "favorites": 7740,
+    "rts": 1004,
     "id": "2nOrEg4ZHuR0cFQHeV8RnI"
   },
-  "24": {
-    "number_vs_time": 13.563537478398572,
-    "name": "Mediocre Karaoke",
-    "sentiment": -0.1517374835309618,
-    "number": 23,
-    "favorites": 87,
-    "rts": 24,
-    "id": "6V7HBMdRkDXD0Lp2E5YlyX"
+  "12": {
+    "number_vs_time": 16.764044072606826,
+    "name": "Splashin",
+    "sentiment": 0.1525401765858147,
+    "number": 2952,
+    "favorites": 16333,
+    "rts": 3077,
+    "id": "79OEIr4J4FHV0O3KrhaXRb"
   },
-  "25": {
-    "number_vs_time": 3.0877173557921864,
+  "13": {
+    "number_vs_time": 2.8431907534261898,
     "name": "Cacti for Clothes",
     "sentiment": 0.03743506493506493,
     "number": 25,
@@ -224,170 +116,107 @@
     "rts": 0,
     "id": "68CcjsUbRVus2F1MlcvHTx"
   },
-  "26": {
-    "number_vs_time": 23.980677492939527,
+  "14": {
+    "number_vs_time": 25.10475771996078,
     "name": "Confessions of a Dangerous Mind",
-    "sentiment": -0.4142368263210772,
-    "number": 1464,
-    "favorites": 7470,
-    "rts": 1219,
+    "sentiment": -0.40473375520159555,
+    "number": 1793,
+    "favorites": 43756,
+    "rts": 9710,
     "id": "5CE0V7z1ePOZQNJNpWxYGA"
   },
-  "27": {
-    "number_vs_time": 11.651253588287029,
-    "name": "Euphoric Dreams",
-    "sentiment": 0.06917882993417755,
-    "number": 187,
-    "favorites": 434,
-    "rts": 72,
-    "id": "1YzEaZWQHeEGAQADZFA1of"
-  },
-  "28": {
-    "number_vs_time": 1.2865499918177794,
+  "15": {
+    "number_vs_time": 1.7142642714788676,
     "name": "No Name No Face",
-    "sentiment": -0.05341276521832077,
-    "number": 18,
-    "favorites": 39,
+    "sentiment": -0.06399561087061087,
+    "number": 16,
+    "favorites": 36,
     "rts": 7,
     "id": "4HsbhFXDC6O30epTPycFQF"
   },
-  "29": {
-    "number_vs_time": 12.293981910631809,
-    "name": "Dont Worry Bout Me",
-    "sentiment": 0.132547619047619,
-    "number": 100,
-    "favorites": 226,
-    "rts": 38,
-    "id": "507tQXutCPYNFkpOq8tmKF"
+  "16": {
+    "number_vs_time": 22.46232792083931,
+    "name": "Let Me Down Slowly",
+    "sentiment": -0.19490849271271968,
+    "number": 3627,
+    "favorites": 15080,
+    "rts": 2292,
+    "id": "2qxmye6gAegTMjLKEBoR3d"
   },
-  "30": {
-    "number_vs_time": 1.9219830523955987,
-    "name": "Cardboard Heart",
-    "sentiment": 0.03076129417148835,
-    "number": 103,
-    "favorites": 1630,
-    "rts": 200,
-    "id": "7KK5qTTb3TycT1crezYzGx"
-  },
-  "31": {
-    "number_vs_time": 17.40875027761828,
-    "name": "YNW Home Invasion",
-    "sentiment": 0.10303847096299924,
-    "number": 106,
-    "favorites": 85,
-    "rts": 15,
-    "id": "6IdY9Bc2TRygRcdfmbviTV"
-  },
-  "32": {
-    "number_vs_time": 1.4841992362978955,
-    "name": "Dream on My Baby",
-    "sentiment": 0.05625,
-    "number": 2,
-    "favorites": 0,
-    "rts": 0,
-    "id": "3Gnx4Cf7unKQgicVQiiTnB"
-  },
-  "33": {
-    "number_vs_time": 3.4711697429702966,
-    "name": "Smooth Like The Summer",
-    "sentiment": 0.3590719696969697,
-    "number": 16,
-    "favorites": 4,
-    "rts": 2,
-    "id": "45TAGq0dVlc59yDfTO7KpK"
-  },
-  "34": {
-    "number_vs_time": 10.132978716875716,
+  "17": {
+    "number_vs_time": 16.087854683569226,
     "name": "ilomilo",
-    "sentiment": 0.11756872623030169,
-    "number": 622,
-    "favorites": 3078,
-    "rts": 347,
+    "sentiment": 0.12443292354571371,
+    "number": 2381,
+    "favorites": 11160,
+    "rts": 1130,
     "id": "7qEKqBCD2vE5vIBsrUitpD"
   },
-  "35": {
-    "number_vs_time": 1.433509495713967,
+  "18": {
+    "number_vs_time": 1.462102085120595,
     "name": "Little Piece of Nothing",
-    "sentiment": -0.08645609318996415,
+    "sentiment": -0.08645609318996417,
     "number": 31,
     "favorites": 25,
     "rts": 1,
     "id": "71hPJJ106daQSnIY34YCg5"
   },
-  "36": {
-    "number_vs_time": 13.080305373901528,
+  "19": {
+    "number_vs_time": 14.31065588432985,
     "name": "Welcome to Silvertown",
-    "sentiment": 0.49730430906961504,
+    "sentiment": 0.5046669464322525,
     "number": 70,
-    "favorites": 234,
-    "rts": 102,
+    "favorites": 229,
+    "rts": 100,
     "id": "3Vm5T4ZUrPXXkJ5YXqfvMX"
   },
-  "37": {
-    "number_vs_time": 10.714348953473433,
+  "20": {
+    "number_vs_time": 25.308438589177932,
+    "name": "Old Town Road",
+    "sentiment": 0.09508737587056577,
+    "number": 3950,
+    "favorites": 79273,
+    "rts": 9378,
+    "id": "2pMl9Sx4glsuk5ikZtFBtX"
+  },
+  "21": {
+    "number_vs_time": 12.805809075408124,
     "name": "Servin Killa Kam",
-    "sentiment": 0.05772620364226203,
-    "number": 685,
-    "favorites": 729,
-    "rts": 180,
+    "sentiment": 0.061704764399240115,
+    "number": 887,
+    "favorites": 1003,
+    "rts": 326,
     "id": "5FWyHjKMW85oZoqgG1zD9b"
   },
-  "38": {
-    "number_vs_time": 12.526793676624262,
+  "22": {
+    "number_vs_time": 13.416689997982829,
     "name": "Walker Texas Ranger",
-    "sentiment": 0.06268491512706147,
-    "number": 834,
-    "favorites": 2740,
-    "rts": 594,
+    "sentiment": 0.06655313087613758,
+    "number": 1505,
+    "favorites": 4055,
+    "rts": 865,
     "id": "6aYi4lYcAohNhlNWsbWfy0"
   },
-  "39": {
-    "number_vs_time": 0.7362138466399847,
+  "23": {
+    "number_vs_time": 17.353938683847655,
+    "name": "Faucet Failure",
+    "sentiment": -0.17634097842337534,
+    "number": 2807,
+    "favorites": 61099,
+    "rts": 7189,
+    "id": "1ThmUihH9dF8EV08ku5AXN"
+  },
+  "24": {
+    "number_vs_time": 0.8138003356657397,
     "name": "Norfolk Drive",
-    "sentiment": 0.11076203208556151,
+    "sentiment": 0.10487967914438504,
     "number": 17,
-    "favorites": 44,
+    "favorites": 47,
     "rts": 11,
     "id": "6uIp0dqdS7TvlakhwXrWfi"
   },
-  "40": {
-    "number_vs_time": 10.75995180351015,
-    "name": "Floating in a Vacuum",
-    "sentiment": 0.028795682501923676,
-    "number": 101,
-    "favorites": 310,
-    "rts": 74,
-    "id": "0wRGQZJjGaLQtxeQc2EOIf"
-  },
-  "41": {
-    "number_vs_time": 0.6085385255245704,
-    "name": "People Are Different",
-    "sentiment": 0.06171572704558817,
-    "number": 36,
-    "favorites": 40,
-    "rts": 4,
-    "id": "3dIvnXEqvm8drsoCtnWWFw"
-  },
-  "42": {
-    "number_vs_time": 1.8124379369262003,
-    "name": "The Randall Knife",
-    "sentiment": 0.0,
-    "number": 1,
-    "favorites": 0,
-    "rts": 1,
-    "id": "2bv4OSWod2ZzbyX2HPgosN"
-  },
-  "43": {
-    "number_vs_time": 4.457264632294652,
-    "name": "Lady Luck",
-    "sentiment": 0.18141119779140616,
-    "number": 264,
-    "favorites": 2797,
-    "rts": 738,
-    "id": "3KSfI84ElbAaJX13Mc2Vod"
-  },
-  "44": {
-    "number_vs_time": 6.984311582293173,
+  "25": {
+    "number_vs_time": 6.079996752931422,
     "name": "Nomad Frays",
     "sentiment": 0.02727272727272727,
     "number": 5,
@@ -395,71 +224,53 @@
     "rts": 2,
     "id": "4V3rTqWRT3PsoY43g9LyPs"
   },
-  "45": {
-    "number_vs_time": 4.342043276027445,
-    "name": "Crybaby",
-    "sentiment": 0.032088490252193166,
-    "number": 239,
-    "favorites": 512,
-    "rts": 46,
-    "id": "1BnKdWmjMDQISk99JYlSxH"
+  "26": {
+    "number_vs_time": 18.322654294183703,
+    "name": "wish you were gay",
+    "sentiment": 0.2939648368017186,
+    "number": 1711,
+    "favorites": 10999,
+    "rts": 1402,
+    "id": "3Fj47GNK2kUF0uaEDgXLaD"
   },
-  "46": {
-    "number_vs_time": 3.044125921440898,
-    "name": "If Girls Ruled the World",
-    "sentiment": 0.15405844155844156,
-    "number": 4,
-    "favorites": 9,
-    "rts": 3,
-    "id": "4O0uUm8sey7hxHJA8zu5Zg"
+  "27": {
+    "number_vs_time": 20.322938811504354,
+    "name": "Artificial Paradise",
+    "sentiment": -0.3193860479797982,
+    "number": 104,
+    "favorites": 289,
+    "rts": 90,
+    "id": "2LO4djxEtCZ72VANAk3AQZ"
   },
-  "47": {
-    "number_vs_time": 16.0578771448437,
-    "name": "Kills You Slowly",
-    "sentiment": -0.1401433982683973,
-    "number": 624,
-    "favorites": 6564,
-    "rts": 1651,
-    "id": "1Pz3QmQFBFuI60rxCQBeW6"
-  },
-  "48": {
-    "number_vs_time": 1.442738270390475,
-    "name": "Dance Macabre",
-    "sentiment": 0.12134787157287157,
-    "number": 75,
-    "favorites": 57,
-    "rts": 12,
-    "id": "3ZZKg4Xt5PNtihSJS722JS"
-  },
-  "49": {
-    "number_vs_time": 5.332149892584172,
+  "28": {
+    "number_vs_time": 8.451367233307613,
     "name": "Shrike",
-    "sentiment": 0.12857008455815877,
-    "number": 283,
-    "favorites": 2421,
-    "rts": 381,
+    "sentiment": 0.13925219645297748,
+    "number": 1500,
+    "favorites": 10749,
+    "rts": 1302,
     "id": "5uIYONgpUQ7t0v7D6CTMBt"
   },
-  "50": {
-    "number_vs_time": 3.946283997068257,
-    "name": "Flickers in the Flames",
-    "sentiment": 0.18333333333333335,
-    "number": 3,
-    "favorites": 0,
-    "rts": 0,
-    "id": "0CAJKZnAV0OIkqxKFQrfed"
+  "29": {
+    "number_vs_time": 2.106942138409756,
+    "name": "Cardboard Heart",
+    "sentiment": 0.03265635521885522,
+    "number": 100,
+    "favorites": 1618,
+    "rts": 200,
+    "id": "7KK5qTTb3TycT1crezYzGx"
   },
-  "51": {
-    "number_vs_time": 16.434486426666425,
+  "30": {
+    "number_vs_time": 13.78929517756794,
     "name": "Trouble Always Finds Me",
-    "sentiment": -0.09365416584352594,
-    "number": 96,
-    "favorites": 128,
-    "rts": 31,
+    "sentiment": -0.09058207800335297,
+    "number": 93,
+    "favorites": 121,
+    "rts": 30,
     "id": "3JEezF1chJ2RwJWQVn85Rm"
   },
-  "52": {
-    "number_vs_time": 5.767795007382261,
+  "31": {
+    "number_vs_time": 8.383519203843267,
     "name": "Nebula Aerobics",
     "sentiment": 0.08720238095238093,
     "number": 6,
@@ -467,53 +278,26 @@
     "rts": 2,
     "id": "72ZNRYiPG65w6CtnVqtiSZ"
   },
-  "53": {
-    "number_vs_time": 1.6568361857765748,
-    "name": "High Class White Trash",
-    "sentiment": 0.20400000000000001,
-    "number": 1,
-    "favorites": 16,
-    "rts": 5,
-    "id": "5rIn2YgH5f4UxgHnoZTan9"
-  },
-  "54": {
-    "number_vs_time": 13.482359126356734,
-    "name": "Long Lost Sunday Morning",
-    "sentiment": 0.031188071188071202,
-    "number": 27,
-    "favorites": 55,
-    "rts": 16,
-    "id": "0mE22UPAPbwQaTmxMOlpaH"
-  },
-  "55": {
-    "number_vs_time": 13.58504582272429,
-    "name": "The Weight Of The Badge",
-    "sentiment": 0.1829164585414586,
-    "number": 26,
-    "favorites": 417,
-    "rts": 42,
-    "id": "0sfbpQvVZ3Omt5M8dtONwH"
-  },
-  "56": {
-    "number_vs_time": 6.98269221258758,
+  "32": {
+    "number_vs_time": 6.140278056065039,
     "name": "Isle Of Strawberries",
-    "sentiment": 0.12435064935064932,
-    "number": 17,
-    "favorites": 35,
-    "rts": 10,
+    "sentiment": 0.11593073593073594,
+    "number": 15,
+    "favorites": 26,
+    "rts": 8,
     "id": "5WKAClOGDSDkCgEtGp6wx1"
   },
-  "57": {
-    "number_vs_time": 5.2795824862695575,
+  "33": {
+    "number_vs_time": 7.399475320222137,
     "name": "Do Si Do",
-    "sentiment": 0.07034808483592095,
+    "sentiment": 0.08039930122516552,
     "number": 71,
-    "favorites": 116,
+    "favorites": 120,
     "rts": 4,
     "id": "6fJBxzll53BBL703Hi3SHQ"
   },
-  "58": {
-    "number_vs_time": 1.7509598132222255,
+  "34": {
+    "number_vs_time": 1.7336300121381127,
     "name": "Colorblind Mind",
     "sentiment": 0.14961820586820587,
     "number": 6,
@@ -521,49 +305,58 @@
     "rts": 1,
     "id": "1BbB50A4RYs7VnENtY5XFK"
   },
-  "59": {
-    "number_vs_time": 19.6935777922051,
-    "name": "wish you were gay",
-    "sentiment": 0.2936361154734744,
-    "number": 964,
-    "favorites": 7377,
-    "rts": 1008,
-    "id": "3Fj47GNK2kUF0uaEDgXLaD"
+  "35": {
+    "number_vs_time": 15.598721955210662,
+    "name": "YNW Home Invasion",
+    "sentiment": 0.09410540915395281,
+    "number": 103,
+    "favorites": 84,
+    "rts": 14,
+    "id": "6IdY9Bc2TRygRcdfmbviTV"
   },
-  "60": {
-    "number_vs_time": 22.12438501358453,
-    "name": "Missed Connection",
-    "sentiment": 0.13636578574397668,
-    "number": 1399,
-    "favorites": 4480,
-    "rts": 641,
-    "id": "6cG99KcHVOlmQOiYcu6cjb"
+  "36": {
+    "number_vs_time": 21.160647289656268,
+    "name": "Undrunk",
+    "sentiment": 0.07040309314676117,
+    "number": 3263,
+    "favorites": 53777,
+    "rts": 5406,
+    "id": "5SHhPFh68OhUmuRPymKX9d"
   },
-  "61": {
-    "number_vs_time": 19.669454802746287,
+  "37": {
+    "number_vs_time": 23.97540190011109,
+    "name": "Murder On My Mind",
+    "sentiment": 0.02049328475569334,
+    "number": 3379,
+    "favorites": 29571,
+    "rts": 5263,
+    "id": "7eBqSVxrzQZtK2mmgRG6lC"
+  },
+  "38": {
+    "number_vs_time": 21.19367842897359,
     "name": "Phantom Limb",
-    "sentiment": 0.04293763143880626,
-    "number": 1140,
-    "favorites": 2240,
-    "rts": 387,
+    "sentiment": 0.06348057250950868,
+    "number": 3446,
+    "favorites": 9102,
+    "rts": 1529,
     "id": "5Dc6kJxciAXgi4aFHgp5X7"
   },
-  "62": {
-    "number_vs_time": 8.117370135603865,
-    "name": "Hell Bent on a Heartache",
-    "sentiment": 0.08641774891774891,
-    "number": 8,
-    "favorites": 13,
-    "rts": 4,
-    "id": "3FoJIRSCqbD9ctpbtCzPRk"
-  },
-  "63": {
-    "number_vs_time": 16.20005315030486,
+  "39": {
+    "number_vs_time": 13.61549463089232,
     "name": "Blue Suede Couch",
-    "sentiment": 0.09576037670549867,
-    "number": 41,
-    "favorites": 196,
+    "sentiment": 0.10376280030885295,
+    "number": 38,
+    "favorites": 195,
     "rts": 22,
     "id": "77QGNPG5jDH0jyx4kveCcV"
+  },
+  "40": {
+    "number_vs_time": 18.611578304189024,
+    "name": "Mo Bamba",
+    "sentiment": 0.06164023204862277,
+    "number": 2922,
+    "favorites": 31005,
+    "rts": 3727,
+    "id": "1xzBco0xcoJEDXktl7Jxrr"
   }
 }

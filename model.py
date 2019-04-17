@@ -38,4 +38,4 @@ regr.fit(X, Y) # weights will be stored into regr
 print('Intercept: \n', regr.intercept_)
 print('Coefficients: \n', regr.coef_)
 
-df_final.to_csv('model.csv')
+df_final.to_csv('model1.csv')

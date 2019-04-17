@@ -24,8 +24,8 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-newMusicFridayFile = codecs.open('trainingSetUnpopular.txt', encoding='utf-8', mode='r')
-f = codecs.open('trainingSetGroundTruthUnpopular.txt', encoding='utf-8', mode='w')
+newMusicFridayFile = codecs.open('trainingSet.txt', encoding='utf-8', mode='r')
+f = codecs.open('trainingSetGroundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
     line = line.split('^') # line[0] = track name, line[1] = artist, line[2] = track id
@@ -46,5 +46,4 @@ for line in newMusicFridayFile:
         f.write('^')
         f.write(str(track_id))
         f.write('\n')
-
 f.close()
