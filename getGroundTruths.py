@@ -24,8 +24,8 @@ else:
     print("usage: python getGroundTruths.py [username]")
     sys.exit()
 
-newMusicFridayFile = codecs.open('trainingSet.txt', encoding='utf-8', mode='r')
-f = codecs.open('trainingSetGroundTruth.txt', encoding='utf-8', mode='w')
+newMusicFridayFile = codecs.open('NMF417.txt', encoding='utf-8', mode='r')
+f = codecs.open('NMF417GroundTruth.txt', encoding='utf-8', mode='w')
 for line in newMusicFridayFile:
     line = line.strip()
     line = line.split('^') # line[0] = track name, line[1] = artist, line[2] = track id
