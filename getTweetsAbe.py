@@ -8,10 +8,10 @@ import tweepy
 from sentiments import clean_tweet, get_tweet_sentiment
 from regex import filter_tweet
 
-CONSUMER_KEY = 'vHZIZtFTt5nNbSrPqlDAIJgNl'
-CONSUMER_SECRET = 'ARrxyCHbCrUUh5NvVMJ8Z71RoxiGa3MaGZQAwQk7bDwE6Uua6I'
-OAUTH_TOKEN = '408881182-wRq39dmJQsM4238wSi1rSJEMxtCDu7b99lPkRHUD'
-OAUTH_TOKEN_SECRET = 'xz4ZCzHM3Vc3RQ2Qgq8zvh7c7UozPi67EnOgMYrg6r46h'
+# CONSUMER_KEY =
+# CONSUMER_SECRET =
+# OAUTH_TOKEN =
+# OAUTH_TOKEN_SECRET = 
 
 data = {} #this will be the dictionary holding all our tweet data
 song_name = None
