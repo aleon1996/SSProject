@@ -11,6 +11,8 @@ Files:
 - getNewReleases.py
 - streamTweets.py
 - final_regression.xlsl 
+- Social_Sensing_Final.pdf
+- FinalReportSourceCode/
 
 Information on how to run each file is included in the comments at the top of the Python files.
 
