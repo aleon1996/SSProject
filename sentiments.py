@@ -26,9 +26,3 @@ def get_tweet_sentiment(tweet):
     else:
         #print('negative')
         return analysis.sentiment.polarity
-
-
-# # tweet = "i'll turn into ariana grande in a few minutes with how long i've been playing 7 rings on loop for.." # gets a -0.125 sentiment
-# tweet = "literally every song on thank u, next is lyrically better than 7 rings" # gets a 0.25 sentiment
-# s = get_tweet_sentiment(tweet)
-# print(s)

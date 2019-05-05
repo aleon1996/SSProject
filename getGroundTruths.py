@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 17 14:48:05 2019
 
-@author: lcampbe3
-"""
+# Elisabetta Caldesi, Abe Leon, Leigh Campbell
+# Social Sensing Project: Predicting Spotify's Next Top Hits
+# Retrieve the SPI's from Spotify to test the model
 
 import spotipy
 import sys

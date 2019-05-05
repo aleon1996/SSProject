@@ -3,7 +3,7 @@
 # Elisabetta Caldesi, Abe Leon, Leigh Campbell
 # Social Sensing Project: Predicting Spotify's Next Top Hits
 # Train the multiple linear regression model based on
-# independent variables = number of tweets / time, retweets, sentiment, number, favorites
+# independent variables = search time, retweets, sentiment, number, favorites
 # dependent variable = Spotify Popularity Index
 
 import json
