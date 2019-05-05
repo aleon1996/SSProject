@@ -12,9 +12,10 @@ import spotipy.util as util
 import codecs
 import os
 
-SPOTIPY_CLIENT_ID=''
-SPOTIPY_CLIENT_SECRET=''
-SPOTIPY_REDIRECT_URI='http://0.0.0.0:8000/' # run: python3 -m http.server 8000
+# Insert API keys here
+# SPOTIPY_CLIENT_ID=
+# SPOTIPY_CLIENT_SECRET=
+# SPOTIPY_REDIRECT_URI=
 
 if len(sys.argv) > 1:
     username = sys.argv[1]
