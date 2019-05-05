@@ -28,7 +28,6 @@ class StreamListenerKeywords(tweepy.StreamListener):
         super(StreamListenerKeywords, self).__init__()
         self.num_tweets = 0
         self.start_time = time.time()
-        # print("start time: {}".format(self.start_time))
         self.end_time = None
         self.final_time = None
         global song_id
@@ -49,10 +48,7 @@ class StreamListenerKeywords(tweepy.StreamListener):
             self.num_tweets += 1
 
         self.end_time = time.time()
-        # print("end time: {}".format(self.end_time))
         self.final_time = self.end_time - self.start_time
-        # print("time difference: {}".format(self.final_time))
-        #we can change the ending of the stream based on a timer or number of tweets
         if self.num_tweets > 20:
             print("Time Limit Reached")
             data[song_id]['time'] = self.final_time

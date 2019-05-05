@@ -2,7 +2,7 @@
 
 # Elisabetta Caldesi, Abe Leon, Leigh Campbell
 # Social Sensing Project: Predicting Spotify's Next Top Hits
-# Get old tweets regarding our songs in the training set to complete
+# Get old tweets about the songs of the training set to complete
 # our regression model
 
 # pip install -e git+https://github.com/Mottl/GetOldTweets3#egg=GetOldTweets3
@@ -16,9 +16,10 @@ import time
 from sentiments import clean_tweet, get_tweet_sentiment
 from regex import filter_tweet
 import json
+import math
 
 # open file containing songs for Training Set
-trainingSet = codecs.open('NMF417.txt', encoding='utf-8', mode='r')
+trainingSet = codecs.open('NMF424_1.txt', encoding='utf-8', mode='r')
 final_dict = {} # {1: {name: , id: , sentiment: , number: , time: , favorites: , rts: }, 2: {...}, ....}
 song_num = 1
 
@@ -33,7 +34,7 @@ for song in trainingSet:
     date = song[3]
 
     start_time = time.time() # time the search
-    tweetCriteria = got.manager.TweetCriteria().setQuerySearch(title).setSince(date).setUntil("2019-04-17").setMaxTweets(4000)
+    tweetCriteria = got.manager.TweetCriteria().setQuerySearch(title).setSince(date).setUntil("2019-04-24").setMaxTweets(4000)
     tweets = got.manager.TweetManager.getTweets(tweetCriteria)
     search_time = time.time() - start_time
 
@@ -68,10 +69,14 @@ for song in trainingSet:
     song_dict['name'] = title
     song_dict['id'] = id
     song_dict['sentiment'] = song_sentiment
-    song_dict['number'] = num_tweets
-    song_dict['time'] = search_time
-    song_dict['favorites'] = total_favorites
-    song_dict['rts'] = total_rts
+    if (num_tweets == 0): num_tweets = 1
+    if (search_time == 0): search_time = 0,01
+    if (total_favorites == 0): total_favorites = 1
+    if (total_rts == 0): total_rts = 1
+    song_dict['log_number'] = math.log(num_tweets,10)
+    song_dict['log_time'] = math.log(search_time,10)
+    song_dict['log_favorites'] = math.log(total_favorites,10)
+    song_dict['log_rts'] = math.log(total_rts,10)
 
     # now add the song_dict to the general dict
     final_dict[song_num] = song_dict
@@ -79,5 +84,5 @@ for song in trainingSet:
 
 
 # now output final_dict on a json file
-with open('NMF417.json', 'w') as outfile:
+with open('NMF424_1.json', 'w') as outfile:
     json.dump(final_dict, outfile)

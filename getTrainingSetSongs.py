@@ -2,7 +2,7 @@
 
 # Elisabetta Caldesi, Abe Leon, Leigh Campbell
 # Social Sensing Project: Predicting Spotify's Next Top Hits
-# Get Training Set of Songs from elisabettacaldesi's playlist on spotify
+# Get Training Set of Songs from the TrainingSetSongs on spotify
 # to obtain a training set of songs to build our multiple linear regression model
 
 import spotipy
@@ -12,8 +12,8 @@ import spotipy.util as util
 import codecs
 import os
 
-SPOTIPY_CLIENT_ID='5b8dbcb9ff8f4fbcb3e62f0ae1f0b138'
-SPOTIPY_CLIENT_SECRET='04f0d2a4fdae4245ac26cdd496d65c05'
+SPOTIPY_CLIENT_ID=''
+SPOTIPY_CLIENT_SECRET=''
 SPOTIPY_REDIRECT_URI='http://0.0.0.0:8000/' # run: python3 -m http.server 8000
 
 if len(sys.argv) > 1:
@@ -30,8 +30,6 @@ if token:
     sp = spotipy.Spotify(auth=token)
     username = "elisabettacaldesi"
     playlist = "1TuhkjrRiaVj2fr5fwQ2gr"
-    # username = "lcampbe3-us"
-    # playlist = "4ce68f4vDXuZzGrpK6bHrK"
     sp_playlist = sp.user_playlist_tracks(username, playlist_id=playlist)
     tracks = sp_playlist['items']
     track_artist = {}
@@ -45,7 +43,6 @@ if token:
             artists.append(tracks[playlist_element]['track']['artists'][i]['name'])
         str1 = id + '^' + release
         artists.append(str1)
-        #artists.append(id)
         track_artist[song] = artists
 
     f = codecs.open('trainingSet.txt', encoding='utf-8', mode='w')

@@ -14,11 +14,11 @@ import matplotlib.pyplot as plt
 
 # load the training set from file to dictionary
 data = {}
-with open('NMF417.json', 'r') as outfile:
+with open('NMF424_1.json', 'r') as outfile:
     data = json.load(outfile)
 
 # load the ground truths inside of dictionary
-groundTruth = codecs.open('NMF417GroundTruth.txt', encoding='utf-8', mode='r')
+groundTruth = codecs.open('NMF424GroundTruth_1.txt', encoding='utf-8', mode='r')
 count = 1
 for line in groundTruth:
     line = line.strip()
@@ -29,7 +29,7 @@ for line in groundTruth:
 # save the data dictionary into a pandas dataframe
 df_final = pd.DataFrame.from_dict(data, orient='index')
 # use sklearn to perform multiple linear regression
-X = df_final[['time','rts', 'sentiment', 'number', 'favorites']]
+X = df_final[['log_time','log_rts', 'sentiment', 'log_number', 'log_favorites']]
 Y = df_final[['SPI']]
 
 regr = linear_model.LinearRegression()
@@ -38,4 +38,4 @@ regr.fit(X, Y) # weights will be stored into regr
 print('Intercept: \n', regr.intercept_)
 print('Coefficients: \n', regr.coef_)
 
-df_final.to_csv('NMF417model.csv')
+df_final.to_csv('NMF424model_1.csv')

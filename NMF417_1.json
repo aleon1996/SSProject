@@ -1,0 +1,65 @@
+{
+  "1": {
+    "name": "HOT STEPPA",
+    "sentiment": 0.24216755020326455,
+    "log_rts": 2.605305046141109,
+    "log_number": 2.045322978786657,
+    "log_favorites": 3.354492600589436,
+    "log_time": 0.8637108174497746,
+    "id": "0Okhidaj0Kyyh47jOHiBaL"
+  },
+  "2": {
+    "name": "A Scent of Lily",
+    "sentiment": 0.10762246525404422,
+    "log_rts": 0.30102999566398114,
+    "log_number": 1.2787536009528289,
+    "log_favorites": 1.2787536009528289,
+    "log_time": 0.27227984216412915,
+    "id": "0lx9ZK0JgUpdbdJttvDMsl"
+  },
+  "3": {
+    "name": "Everybody Here Hates You",
+    "sentiment": 0.04035915850453886,
+    "log_rts": 2.6464037262230695,
+    "log_number": 2.7419390777291985,
+    "log_favorites": 3.490379920003179,
+    "log_time": 1.3975857234479476,
+    "id": "3Gjk9HvG1T6yeoOJGW6eoK"
+  },
+  "4": {
+    "name": "Fixture Picture",
+    "sentiment": 0.09504861712361716,
+    "log_rts": 2.2988530764097064,
+    "log_number": 2.397940008672037,
+    "log_favorites": 2.9127533036713227,
+    "log_time": 2.0002881022225307,
+    "id": "1W8AlDXkLdYbBivtBkCblK"
+  },
+  "5": {
+    "name": "Favourite Ex",
+    "sentiment": 0.14292263201576932,
+    "log_rts": 2.2278867046136734,
+    "log_number": 2.008600171761917,
+    "log_favorites": 3.03462845662532,
+    "log_time": 1.048431433109433,
+    "id": "1a1SQeSqUKzH5OUVTEx4ae"
+  },
+  "6": {
+    "name": "Tunnelovision",
+    "sentiment": 0.14730465315377853,
+    "log_rts": 2.60422605308447,
+    "log_number": 1.9912260756924949,
+    "log_favorites": 3.3068537486930083,
+    "log_time": 0.7875289040262349,
+    "id": "27amyuHPB1IZQZoTmb8Tjo"
+  },
+  "7": {
+    "name": "Fluttering In The Floodlights",
+    "sentiment": 0.12239452090198362,
+    "log_rts": 1.6901960800285134,
+    "log_number": 1.8260748027008262,
+    "log_favorites": 2.340444114840118,
+    "log_time": 0.6105187742662738,
+    "id": "1ZEEm3E9Yvho5mYyzGFvxy"
+  }
+}
